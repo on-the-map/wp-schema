@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'custom-icons-font';
+  src:  url('../webfonts/custom-icons-font.eot?dc2fxi');
+  src:  url('../webfonts/custom-icons-font.eot?dc2fxi#iefix') format('embedded-opentype'),
+    url('../webfonts/custom-icons-font.ttf?dc2fxi') format('truetype'),
+    url('../webfonts/custom-icons-font.woff?dc2fxi') format('woff'),
+    url('../webfonts/custom-icons-font.svg?dc2fxi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="custom-icon-"], [class*=" custom-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'custom-icons-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-icon-avvo:before {
+  content: "\e900";
+}
+.custom-icon-justia:before {
+  content: "\e901";
+}
+.custom-icon-onthemap:before {
+  content: "\e902";
+}
+
+.csf-options .far,
+.csf-options .fas,
+.csf-options .fab {
+	width: 20px;
+  margin-right: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.csf-field-group .csf-cloneable-header-icon {
+	vertical-align: text-bottom;
+}
