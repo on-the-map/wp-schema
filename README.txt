@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Schema Plugin ===
 
 Tags: schema
 Requires at least: 3.0.1
