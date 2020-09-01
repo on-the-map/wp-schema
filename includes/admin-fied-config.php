@@ -44,7 +44,7 @@ if( class_exists( 'CSF' ) ) {
 	  'show_reset_section' => false,
 	  'show_search' => false,
 	  'show_bar_menu'=> false,
-	  'footer_text' => 'Test your structured data <a href="https://search.google.com/structured-data/testing-tool/u/0/" target="_blank">here</a>.',
+	  'footer_text' => 'Test your structured data <a href="https://search.google.com/structured-data/testing-tool/u/0/#url=' . get_home_url() .'" target="_blank">here</a>.',
 	  'footer_credit' => ' ',
 	  'theme' => 'light',
 	));
