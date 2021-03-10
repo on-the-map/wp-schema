@@ -15,3 +15,6 @@ This is a structured data schema plugin with multiple location functionality and
 
 = 1.0.1 =
 * Changed sturturated data testing tool link
+
+= 1.1.0 =
+* Added enable/disable functionality per page

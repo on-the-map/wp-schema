@@ -81,6 +81,11 @@ add_action('wp_head', 'faq_schema', 10);
 
 
 function local_business_structured_data() {
+
+  if(get_post_meta( get_the_ID(), 'structured-data-enable-on-this-page', true ) != 1) {
+    return;
+  }
+
   if(get_post_meta( get_the_ID(), 'structured-data-enable-location-schema', true ) == 1) {
     $location_schema = get_post_meta( get_the_ID(), 'location-schema', true );
     $current_location_schema = get_option('structured_data_markup')['multiple-location-schema'];

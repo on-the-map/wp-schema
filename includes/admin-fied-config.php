@@ -916,6 +916,13 @@ if( class_exists( 'CSF' ) ) {
 			'dependency' => array( 'structured-data-enable-location-schema', '==', 'true' ),
 			'options'     => $innerpage_options,
 		),
+		array(
+			'id'    => 'structured-data-enable-on-this-page',
+			'type'  => 'switcher',
+			'title' => 'Enable Schema Markup On This Page?',
+			'text_on'  => 'Yes',
+			'text_off' => 'No',
+		),
     )
 	) );
 
